@@ -9,7 +9,7 @@ public FinancialCalc {
     public static void main(String[] args){
 
         FinancialCalc obj = new FinancialCalc();
-        System.out.println("Hence the finalValue is" + obj.computeFinalValue(50.0, 0.3, 4));
+        System.out.println("Hence the finalValue is" + obj.computeFinalValue(1000.0, 0.035, 7));
 
     }
 }
